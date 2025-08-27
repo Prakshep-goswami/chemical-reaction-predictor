@@ -35,7 +35,7 @@ A modern web application that predicts chemical reactions using AI-powered analy
 
 1. **Clone the repository**
    \`\`\`bash
-   git clone https://github.com/your-username/chemical-reaction-predictor.git
+   git clone https://github.com/prakshep-goswami/chemical-reaction-predictor.git
    cd chemical-reaction-predictor
    \`\`\`
 
@@ -158,8 +158,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/your-username/chemical-reaction-predictor/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-username/chemical-reaction-predictor/discussions)
+- **Issues**: [GitHub Issues](https://github.com/prakshep-goswami/chemical-reaction-predictor/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/prakshep-goswami/chemical-reaction-predictor/discussions)
 - **Email**: prakshepgoswami@gmail.com , ppyenterprises@gmail.com
 
 
