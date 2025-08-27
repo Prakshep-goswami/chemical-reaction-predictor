@@ -35,7 +35,7 @@ A modern web application that predicts chemical reactions using AI-powered analy
 
 1. **Clone the repository**
    \`\`\`bash
-   git clone https://github.com/prakshep-goswami/chemical-reaction-predictor.git
+   git clone https://github.com/your-username/chemical-reaction-predictor.git
    cd chemical-reaction-predictor
    \`\`\`
 
@@ -94,18 +94,53 @@ A modern web application that predicts chemical reactions using AI-powered analy
 ## 📁 Project Structure
 
 \`\`\`
-├── app/
-│   ├── actions.ts          # Server actions for reaction prediction
-│   ├── globals.css         # Global styles and Tailwind configuration
-│   ├── layout.tsx          # Root layout with font configuration
-│   └── page.tsx            # Main application component
-├── components/
-│   ├── ui/                 # shadcn/ui components
-│   └── theme-provider.tsx  # Theme context provider
-├── lib/
-│   └── utils.ts            # Utility functions
-└── hooks/                  # Custom React hooks
+chemical-reaction-predictor/
+├── app/                    # Next.js App Router
+│   ├── actions.ts          # Server actions for AI-powered predictions
+│   ├── globals.css         # Global styles & Tailwind v4 config
+│   ├── layout.tsx          # Root layout with Inter font
+│   └── page.tsx            # Main app with prediction interface
+│
+├── components/             # Reusable UI components
+│   ├── ui/                 # shadcn/ui component library
+│   │   ├── alert.tsx       # Alert notifications
+│   │   ├── badge.tsx       # Status badges
+│   │   ├── button.tsx      # Interactive buttons
+│   │   ├── card.tsx        # Content containers
+│   │   ├── input.tsx       # Form inputs
+│   │   ├── label.tsx       # Form labels
+│   │   ├── select.tsx      # Dropdown selectors
+│   │   ├── separator.tsx   # Visual dividers
+│   │   ├── tabs.tsx        # Tab navigation
+│   │   └── textarea.tsx    # Multi-line inputs
+│   └── theme-provider.tsx  # Dark/light theme context
+│
+├── lib/                    # Utility functions
+│   └── utils.ts            # Tailwind class merging utilities
+│
+├── hooks/                  # Custom React hooks
+│   ├── use-mobile.ts       # Mobile device detection
+│   └── use-toast.ts        # Toast notification system
+│
+├── public/                 # Static assets
+│   ├── favicon.ico         # App favicon
+│   └── ...                 # Other static files
+│
+├── .env.local              # Environment variables (not tracked)
+├── .gitignore              # Git ignore rules
+├── components.json         # shadcn/ui configuration
+├── next.config.mjs         # Next.js configuration
+├── package.json            # Dependencies and scripts
+├── README.md               # Project documentation
+└── tsconfig.json           # TypeScript configuration
 \`\`\`
+
+### Key Files Explained
+
+- **`app/actions.ts`**: Contains server actions that handle OpenAI API integration for chemical reaction predictions
+- **`app/page.tsx`**: Main application component with tabbed interface, reaction database, and prediction logic
+- **`components/ui/`**: Complete shadcn/ui component library for consistent, accessible UI elements
+- **`lib/utils.ts`**: Utility functions including the `cn()` helper for conditional Tailwind class merging
 
 ## 🔧 Configuration
 
@@ -161,5 +196,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Issues**: [GitHub Issues](https://github.com/prakshep-goswami/chemical-reaction-predictor/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/prakshep-goswami/chemical-reaction-predictor/discussions)
 - **Email**: prakshepgoswami@gmail.com , ppyenterprises@gmail.com
-
-
+- 
